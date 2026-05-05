@@ -5,13 +5,13 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-# Configura los permisos necesarios para publicar en GitHub Pages
+# Configure the necessary permissions to publish to GitHub Pages.
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Permite solo un despliegue a la vez
+# Allows only one deployment at a time.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -23,16 +23,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Importante: descarga el tema Shibui que está como submódulo
+          # Important: Download the Shibui theme, which is included as a submodule.
           submodules: recursive
-          # Trae todo el historial para que funcionen las fechas de los posts
+          # It fetches the entire history so that the post dates display correctly.
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          # Activamos la versión extended para procesar CSS/SASS
+          # We are enabling the extended version to process CSS/SASS.
           extended: true
 
       - name: Build

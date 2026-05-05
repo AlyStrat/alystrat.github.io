@@ -1,12 +1,12 @@
 baseURL = 'https://alystrat.github.io/'
 locale = 'en-us'
-title = 'Shibui (渋い)'
+title = 'AlyStrat'
 theme = "shibui"
 enableGitInfo = true
 
 [params.author]
-name = "Kien Nguyen-Tuan"
-email = "kiennt2609@gmail.com"
+name = "Alison Parisaca"
+email = "alison-pq@outlook.com"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
