@@ -4,6 +4,8 @@ title = 'AlyStrat'
 theme = "shibui"
 enableGitInfo = true
 
+[params]
+    favicon = "/favicon.png"
 [params.author]
 name = "Alison Parisaca"
 email = "alison-pq@outlook.com"
