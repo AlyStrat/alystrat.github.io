@@ -1,5 +1,5 @@
 ---
-title: 'Asynchronous Deep Dive - JavaScript'
+title: 'JS Notes - Asynchronous Deep Dive'
 date: 2026-05-11T22:13:24-04:00
 draft: false
 ---
