@@ -1,5 +1,5 @@
 ---
-title: "AlyStrat //"
+title: "AlyStrat"
 ---
 
 ## Welcome to my digital sandbox.
@@ -16,7 +16,5 @@ Here, I document my journey of "peeling back the layers" of technology to unders
 - **[Algorithms]**: Dissecting logic and solving puzzles.
 - **[Dev Life]**: Tutorials, stories, and the occasional "facepalm" moment.
 - **[About]**: More about me (and my cat).
-
----
 
 > "Simplicity is the ultimate sophistication."
