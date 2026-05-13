@@ -5,7 +5,8 @@ theme = "shibui"
 enableGitInfo = true
 
 [params]
-    favicon = "img/favicon.ico"
+    favicon = "/favicon_io/favicon.ico"
+
 [params.author]
 name = "Alison Parisaca"
 email = "alison-pq@outlook.com"
