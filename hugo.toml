@@ -6,6 +6,7 @@ enableGitInfo = true
 
 [params]
     favicon = "/favicon.ico"
+    Enable = false
 [params.author]
 name = "Alison Parisaca"
 email = "alison-pq@outlook.com"
