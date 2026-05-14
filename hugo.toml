@@ -1,4 +1,5 @@
 baseURL = 'https://alystrat.github.io/'
+googleAnalytics = 'G-07BRRR8YT5'
 locale = 'en-us'
 title = 'AlyStrat'
 theme = "shibui"
@@ -7,6 +8,10 @@ enableGitInfo = true
 [params.author]
 name = "Alison Parisaca"
 email = "alison-pq@outlook.com"
+
+[params]
+  favicon = "favicon.png"
+  googleAnalytics = 'G-07BRRR8YT5'
 
 [markup]
   defaultMarkdownHandler = "goldmark"
